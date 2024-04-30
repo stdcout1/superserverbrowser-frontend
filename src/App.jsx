@@ -6,7 +6,7 @@ import Search from './Search.jsx';
 import { useEffect, useState } from 'react';
 import Files from './Files';
 import Buttons from './Buttons';
-const backend = "http://localhost:2999"
+const backend = "http://mc.nasirk.ca:2999"
 
 
 function App() {
