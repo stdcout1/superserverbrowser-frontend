@@ -15,8 +15,8 @@ function App() {
 
   const selectFunction = (file) => {
     if (selectedfiles.includes(file)) {
-      setSelectedFiles(selectedfiles.filter((f)=>{return f != file}))
-      console.log(selectedfiles.filter((f)=>{return f != file}))
+      setSelectedFiles(selectedfiles.filter((f)=>{return f !== file}))
+      console.log(selectedfiles.filter((f)=>{return f !== file}))
     }
     else {
     setSelectedFiles([...selectedfiles, file])
